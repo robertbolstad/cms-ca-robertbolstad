@@ -1,3 +1,132 @@
-body{
-    background-color: white;
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body{
+    height: 100%;
+}
+header{
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+header img{
+    width: 230px;
+    height: 46px;
+
+}
+
+.container{
+    min-height: 100%;
+}
+
+.page-container{
+    text-align: center;
+    max-width: 1400px;
+    margin: auto;
+    overflow: auto;
+    padding-bottom: 100px;
+
+}
+
+.heading{
+    font-size: 2.5em;
+    margin: 40px;
+
+    
+}
+
+.content-wrap{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px;
+ 
+}
+.details{
+ padding: 0 20 20 20px;
+
+}
+
+.productName, .price{
+    margin: 15px;
+}
+
+.button{
+    padding: 12px;
+    width: 100px;
+    background-color:#394f4c;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+
+}
+
+.button:hover{
+    background-color: #161e1d
+}
+
+
+.img{
+    width: 270px;
+    height: 270px;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .content-wrap {
+    padding-bottom: 2.5rem;
+  }
+  
+  .footer {
+    background-color: #f0f0f0;
+    color: #6d6d6d;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+    text-align: center;
+  }
+
+  .footer p{
+      padding: 40px;
+  }
+ 
+
+@media only screen and (min-width: 603px){
+    .img{
+        width: 270px;
+        height: 270px;
+        border-radius: 10px 10px 0px 0px;
+        padding-top: 0px;
+    }
+    .product{
+        width: 270px;
+    }
 }
